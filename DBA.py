@@ -4,6 +4,8 @@ This is an implementation of the algorithm presented in:
 A global averaging method for dynamic time warping, with applications to clustering, Petitjean et. al.
 (http://dpt-info.u-strasbg.fr/~fpetitjean/Research/Petitjean2011-PR.pdf)
 
+This AS-IS python script is a translation of Petitjean's Java code of DBA algorithm.
+
 Authors: xunli@asu.edu, william.griffin@asu.edu
 """
 import numpy as np
