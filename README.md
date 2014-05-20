@@ -15,11 +15,13 @@ Suppose you have N time-series data, each with length M.
 
 sequences: a NxM numpy array, each row is a original time-series data
 averageSequence: a Nx1 numpy array, for the first time DBA call, this could be a reasonable guess of averageSequence.
-
+'''
 DBA(averageSequence, sequences)
+'''
 
 Example
 =======
+'''python
 # create fake 100x20 time-series data
 sequences = np.zeros((100,20))
 for i in range(100):
@@ -42,3 +44,4 @@ print "[%s]" % " ".join([str(i)for i in averageSequence])
 DBA(averageSequence, sequences)
     
 print "[%s]" % " ".join([str(i)for i in averageSequence]) 
+'''
