@@ -1,7 +1,9 @@
 time-series
 ===========
 
-DBA: DynamicTimeWrapping Barycenter Averaging (DBA). 
+DBA: Dynamic Time Wrapping Barycenter Averaging (DBA). 
+
+Dynamic Time Wrapper in Python
 
 This is an implementation of the algorithm presented in:
 A global averaging method for dynamic time warping, with applications to clustering, Petitjean et. al.
